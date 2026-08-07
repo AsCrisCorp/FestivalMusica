@@ -454,3 +454,27 @@ body > section {
   font-weight: 700;
   margin: 0;
 }
+
+.sobre_festival {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .sobre_festival {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+  }
+}
+
+.contenido_festival {
+  margin-top: 4rem;
+}
+.contenido_festival h2 {
+  margin-bottom: 2rem;
+}
+.contenido_festival .fecha {
+  color: #4CB8B3;
+  font-weight: 700;
+}
